@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB Connection
-const uri = 'mongodb+srv://j07087815:9vveztlZpqTiKNIV@cluster0.xkizt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const uri = '';
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB에 성공적으로 연결되었습니다.'))
